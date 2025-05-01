@@ -1,0 +1,26 @@
+print("Welcome to Pizza Rakshit")
+size=str(input("What Pizza Size You want"))
+if size=="L":
+    size=30
+elif size=="M":
+    size=20
+elif size=="S":
+    size=10
+
+peporoni=str(input("Do you want peporoni Y OR N"))
+
+if str(peporoni)=="Yes":
+    peporoni=10;
+else:
+    peporoni=0
+
+cheese=str(input("Do you want Extra Cheese Y or N"))
+
+if cheese=="Yes":
+    cheese=10
+else:
+    cheese=0
+print(f"Total bill is {cheese+peporoni+size}")
+
+
+    
